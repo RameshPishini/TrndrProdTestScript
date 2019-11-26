@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="regressionProdTCs.regressionTCS">
+        <methods>
+          <include name="R5L2screen"/>
+          <include name="R1L4screen"/>
+          <include name="R2L4screen"/>
+          <include name="R4L4screen"/>
+          <include name="R4L2screen"/>
+          <include name="Medalscreen"/>
+          <include name="CategoryiconNL"/>
+          <include name="R4screen"/>
+          <include name="profileScreenQ"/>
+          <include name="R3L4screen"/>
+          <include name="R1L1screen"/>
+          <include name="R5L4screen"/>
+          <include name="R2L1screen"/>
+          <include name="R1L3screen"/>
+          <include name="R4L1screen"/>
+          <include name="endReport"/>
+          <include name="R3L1screen"/>
+          <include name="R2L3screen"/>
+          <include name="R2screen"/>
+          <include name="R3L3screen"/>
+          <include name="R5L1screen"/>
+          <include name="getResult"/>
+          <include name="R5L3screen"/>
+          <include name="socialcattc"/>
+          <include name="createbtntrndrtc"/>
+          <include name="Accountscreen"/>
+          <include name="R5screen"/>
+          <include name="R4L3screen"/>
+          <include name="nllangtc"/>
+          <include name="init"/>
+          <include name="R1L2screen"/>
+          <include name="R2L2screen"/>
+          <include name="R3screen"/>
+          <include name="R3L2screen"/>
+        </methods>
+      </class> <!-- regressionProdTCs.regressionTCS -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
