@@ -111,8 +111,8 @@ public static String getScreenhot(WebDriver driver, String screenshotName) throw
 //
 //		driver=new ChromeDriver();
 	    
-	   // System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Eclipse\\driver2\\geckodriver.exe");
-	    System.setProperty("webdriver.gecko.driver","/home/ubuntu/plugins/geckodriver");
+	    System.setProperty("webdriver.gecko.driver","C:\\Users\\Administrator\\Documents\\geckodriver.exe");
+	   // System.setProperty("webdriver.gecko.driver","/home/ubuntu/plugins/geckodriver");
 	     driver=new FirefoxDriver();
 	     
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
